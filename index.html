@@ -30,11 +30,12 @@
   <main id="main" class="wrap">
     <section class="hero" aria-labelledby="welcome">
       <div class="hero-copy">
-        <p class="eyebrow">Now on the App Store · v1.0</p>
+        <p class="eyebrow">Clipzelo for iPhone · 1.2 release guide</p>
         <h1 id="welcome">Compress Videos.<br><span>Save Space.</span></h1>
         <p class="lead">Make room for what’s next. Clipzelo compresses videos right on your iPhone, with a quality preview to help you choose before you save or share.</p>
         <a class="store-link" href="https://apps.apple.com/us/app/clipzelo-video-compressor/id6824147929">Download on the App Store <span aria-hidden="true">↗</span></a>
         <p class="download-note">For iPhone · Requires iOS 26.0 or later</p>
+        <p class="note">Batch instructions below apply to version 1.2. If you do not see Batch Compress, check your installed version and available App Store updates.</p>
         <p class="hero-plan">3 free compressions a day.<br>Unlimited with a one-time Pro purchase. No subscription.</p>
       </div>
       <div class="hero-art">
@@ -54,12 +55,13 @@
         <article><span class="feature-number" aria-hidden="true">03</span><h3>Preview your quality</h3><p>Compare an original and compressed video sample to find the balance that works for you.</p></article>
         <article><span class="feature-number" aria-hidden="true">04</span><h3>Processed on your iPhone</h3><p>Video compression happens locally on your device. No upload to a Clipzelo server and no app account required.</p></article>
         <article><span class="feature-number" aria-hidden="true">05</span><h3>Save it. Share it.</h3><p>Save a separate compressed copy to Photos or share it with another app. Your original stays in your control.</p></article>
+        <article><span class="feature-number" aria-hidden="true">06</span><h3>Batch compression in 1.2</h3><p>Choose up to ten videos and one quality preset. Process them one at a time, then review and save completed copies. Batch Start, Resume and Retry require Wi-Fi.</p></article>
       </div>
     </section>
     <section id="plans" aria-labelledby="plans-title">
       <p class="eyebrow">Simple choices</p><h2 id="plans-title">Free or lifetime Pro</h2>
       <div class="plans">
-        <article><h3>Free</h3><p><strong>3 successful compressions per local calendar day.</strong> All three presets are available. Failed or canceled jobs do not count. Previewing, saving, sharing and retrying a Photos save do not use another compression.</p><p>The allowance resets at local midnight. Clock or time-zone changes may delay the reset. Usage is stored locally and does not sync across devices.</p></article>
+        <article><h3>Free</h3><p><strong>3 successful compressions per local calendar day.</strong> All three presets are available. In 1.2, Batch uses the same remaining daily allowance: each successfully compressed video counts once, not one slot for the whole batch. Failed or canceled jobs do not count. Previewing, saving, sharing and retrying a Photos save do not use another compression.</p><p>The allowance resets at local midnight. Clock or time-zone changes may delay the reset. Usage is stored locally and does not sync across devices.</p></article>
         <article><h3>Clipzelo Pro</h3><p><strong>Unlimited video compressions with a one-time purchase.</strong> No subscription or expiration. Open <em>Upgrade to Pro</em> on Home to see the current localized App Store price and purchase through Apple.</p><p>No app account is required. Pro access depends on a verified Apple purchase; refunds or revocation can remove access.</p></article>
       </div>
     </section>
@@ -68,16 +70,28 @@
       <p class="lead">Get started, restore a purchase, or find an answer below.</p>
       <a href="#contact">Contact support</a>
     </section>
-    <div class="section-nav" aria-label="On this page"><a href="#plans">Free &amp; Pro</a><a href="#restore">Restore purchases</a><a href="#faq">Troubleshooting</a></div>
+    <div class="section-nav" aria-label="On this page"><a href="#plans">Free &amp; Pro</a><a href="#batch">Batch in 1.2</a><a href="#restore">Restore purchases</a><a href="#faq">Troubleshooting</a></div>
     <section id="getting-started" aria-labelledby="steps-title">
       <p class="eyebrow">The basics</p><h2 id="steps-title">How to compress a video</h2>
       <ol class="steps">
-        <li><strong>Select a video.</strong> Open Clipzelo and tap <em>Select Video</em>. Choose a video in the system Photos picker. Keep the app open while preparing and compressing.</li>
+        <li><strong>Select a video.</strong> Open Clipzelo and tap <em>Select Video</em>. Choose a video in the system Photos picker. Start preparation and compression with the app open. In 1.2, supported processing may continue in the background when iOS allows it; completion is not guaranteed.</li>
         <li><strong>Choose your quality.</strong> Select High Quality, Balanced, or Small File. Sizes are estimates; actual output varies by source. Optional <em>Preview Quality</em> shows a real Original/Compressed sample with shared playback controls.</li>
         <li><strong>Compress and review.</strong> Start compression, then check the actual file sizes and play the result. A short preview may not represent every scene.</li>
-        <li><strong>Save or share your copy.</strong> Tap <em>Save Copy to Photos</em> and wait for confirmation, or use Share. Save or share before starting another video or leaving the app; temporary results are not a permanent library.</li>
+        <li><strong>Save or share your copy.</strong> Tap <em>Save Copy to Photos</em> and wait for confirmation, or use Share. Save or share copies you want to keep. In 1.2, retained unfinished results can be reviewed after returning to the app; app-local results are not a permanent backup.</li>
       </ol>
       <p class="note">Compression does not automatically delete your original. Optional cleanup is a separate action after saving, with verification, Photos permission and explicit confirmation.</p>
+    </section>
+    <section id="batch" aria-labelledby="batch-title">
+      <p class="eyebrow">Version 1.2 guide</p><h2 id="batch-title">How to use Batch Compression</h2>
+      <p>These instructions are for version 1.2. Batch is not available in earlier versions.</p>
+      <ol class="steps">
+        <li><strong>Create a batch.</strong> Open <em>Batch Compress</em>, choose <em>New Batch</em> and select up to ten videos. Allow Photos access to the selected originals, including any limited-access selection needed for preparation and recovery.</li>
+        <li><strong>Choose one preset.</strong> The preset applies to the batch. Free selection is limited to your remaining daily allowance; three daily successful compressions are shared with single-video use. Pro removes the daily limit, but each batch still accepts at most ten videos.</li>
+        <li><strong>Connect to Wi-Fi and start.</strong> Tap <em>Start Batch</em> with the app open. Videos are prepared and compressed sequentially. Storage or source-availability problems can block or pause processing.</li>
+        <li><strong>Review and save.</strong> Open completed results, inspect their measured sizes and playback, then use <em>Save to Photos</em> and wait for confirmation. Compression does not automatically save every result to Photos. Unsaved Batch copies remain available for Manual Review until you save or explicitly discard them; they are not a permanent backup.</li>
+      </ol>
+      <p class="note">You can pause the queue. If Wi-Fi is lost, the current video may continue, but the next video will not start automatically. Reconnect and explicitly choose <em>Resume</em>. Returning to the app or restoring Wi-Fi does not automatically restart interrupted work; use the available <em>Resume</em> or <em>Retry</em> action. Both require Wi-Fi. Background processing depends on iOS and can be interrupted.</p>
+      <p>Deleting originals is optional and separate from saving. In <em>Delete Originals</em>, select only originals whose saved replacements have been verified, review the selection and confirm both the app and Photos prompts. A failed or uncertain deletion is not automatically retried. Saved replacements are kept; Recently Deleted can delay space reclamation. Discarding an unsaved Batch copy does not delete its Photos original.</p>
     </section>
     <section id="restore" aria-labelledby="restore-title">
       <p class="eyebrow">Already have Pro?</p><h2 id="restore-title">Restore Purchases</h2>
@@ -90,7 +104,9 @@
     </section>
     <section id="faq" aria-labelledby="faq-title">
       <p class="eyebrow">Troubleshooting &amp; FAQ</p><h2 id="faq-title">A few helpful answers</h2>
-      <details><summary>Why is preparing a video taking a while?</summary><p>A video may need to be retrieved from iCloud Photos before Clipzelo can analyze it. Progress can be indeterminate; a delay alone does not prove a download is happening. Check connectivity and free storage. Cancel returns you to selection, but Photos may continue its underlying transfer. Photos may use cellular under your system settings; Clipzelo does not offer a Wi-Fi-only guarantee.</p></details>
+      <details><summary>Why is preparing a video taking a while?</summary><p>A video may need to be retrieved from iCloud Photos before Clipzelo can analyze it. Progress can be indeterminate; a delay alone does not prove a download is happening. Check connectivity and free storage. Cancel returns you to selection, but Photos may continue its underlying transfer. Single-video preparation may use cellular under your system settings. In 1.2, Batch Start, Resume and Retry require an available Wi-Fi connection. Wi-Fi does not guarantee that an iCloud video is available, and Clipzelo does not control all Photos network transfers.</p></details>
+      <details><summary>Will my 1.2 batch finish if I leave the app?</summary><p>iOS may allow supported work to continue and show system-managed progress, but it can interrupt or decline background processing. Return to Clipzelo to inspect the queue. Interrupted work needs the available Resume or Retry action over Wi-Fi; force-quitting is not a way to keep processing. Completed unsaved results remain for Manual Review through normal relaunch, but app deletion or storage failure can remove app-local data.</p></details>
+      <details><summary>Does a ten-video batch use only one Free compression?</summary><p>No. In 1.2, each successful video uses one of the same three daily Free compressions used by single-video mode. Check your remaining allowance before starting. Preparing, failing or canceling a job does not count as a successful compression, and saving or deleting an original does not spend another slot.</p></details>
       <details><summary>Why is the output larger than expected, or not much smaller?</summary><p>Estimates are approximate. Source codec, bitrate, resolution, frame rate, audio and HDR affect the result. An already efficient video may not shrink or may get larger. Try a different preset and review its actual result; smaller files can trade away visual detail. There is no guaranteed compression ratio.</p></details>
       <details><summary>What should I do about low storage or a failed compression?</summary><p>Free space in iPhone Settings, close other storage-heavy tasks and retry with a disposable or shorter video to isolate the issue. Temporary source, output and Photos-save copies can require more space than the final file. Clipzelo's storage estimates are approximate. Original videos are never automatically deleted to recover space.</p></details>
       <details><summary>My compressed copy will not save to Photos.</summary><p>Check available storage and Clipzelo's Photos permission in iPhone Settings. Retry saving from the existing result if available, or use Share to save elsewhere. A failed Photos save is not a saved copy. Do not delete the original unless you have reviewed a successfully saved copy.</p></details>
